@@ -7,14 +7,9 @@ A gymnasium environment PushT.
 
 ## Installation
 
-Create a virtual environment with Python 3.10 and activate it, e.g. with [`miniconda`](https://docs.anaconda.com/free/miniconda/index.html):
+Install the project with dev dependencies:
 ```bash
-conda create -y -n pusht python=3.10 && conda activate pusht
-```
-
-Install gym-pusht:
-```bash
-pip install gym-pusht
+poetry install --all-extras
 ```
 
 
